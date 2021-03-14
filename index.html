@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Eyes Exercise</title>
+  <link rel="stylesheet" href="./styles.css" />
+</head>
+<body>
+  <div class="eyes">
+    <img src="./assets/r-eyebrow.png" alt="right eyebrow" class="brow right-brow" onclick="eBrowFlash('right-brow')">
+    <img src="./assets/l-eyebrow.png" alt="left eyebrow" class="brow left-brow" onclick="eBrowFlash('left-brow')">
+    <br>
+    <div class="eye" id="righteye" onclick='wink("righteye")'>
+      <div class="iris"> <div class="pupil"></div></div>
+      <img src="./assets/r-eyelash.png" alt="right eyelash" class="eyelash">
+    </div>
+    <div class="eye" id="lefteye" onclick='wink("lefteye")'>
+      <div class="iris"><div class="pupil"></div></div>
+      <img src="./assets/l-eyelash.png" alt="lefteye eyelash" class="eyelash">
+    </div>
+  </div>
+</body>
+<script src="./eyes.js"></script>
+</html>
