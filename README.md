@@ -1,7 +1,8 @@
 # Eyes Exercise
 
 ## Description
-	In this project we are building a human face that can perform all the facial expressions as a human do. When click on an eye it will wink. When click on an eyebrow it will perform an eyebrow flash (raise and lower quickly). The eyes will also follow the cursor movements.
+	In this project we are building a human face that can perform all the facial expressions as a human do. When click on an eye it will wink.
+	When click on an eyebrow it will perform an eyebrow flash (raise and lower quickly). The eyes will also follow the cursor movements.
 
 ## How to Run:
       To run this project download all the files to your local machine and then open the file index.html in a browser.
